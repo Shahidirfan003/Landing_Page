@@ -1,0 +1,156 @@
+body{
+    font-size: 16px;
+
+}
+
+/* home section styleing */
+.home-col1 h2,.service-col-1>h4,#BEST h3,h3{
+    color:#FF3147;
+}
+#BEST h1,h1{
+    font-size: 2.5rem;
+    margin: 2rem 0rem;
+}
+.home-col1 h1{
+    margin: 2rem 0rem;
+    font-size: 3.3rem;
+}
+.home-col1 button{
+    background-color: #FF3147 ;
+    color:white;
+    width:fit-content;
+    font-size: .8rem;
+    font-weight: 500;
+    border-radius: 0%;
+}
+.home-col2 img{
+    width:100%;
+    height:80vh;
+}
+@media(max-width:520px){
+    .home-col1 h1,#BEST h1,h1{
+        font-size: 2.5rem;
+        margin: 2rem 0rem;
+    }
+    .home-col2 img{
+        width:100%;
+        height:40vh;
+    }
+}
+
+/* service section styleing */
+
+#SERVICE .slider>div>div img{
+    height:420px;
+    width:100% ;
+}
+.slider{
+    width:100%;
+    display:flex;
+    overflow-x:scroll;
+    transition: all 1s ease;
+    scroll-behavior: smooth;
+}
+.slider>div.card{
+    flex: 0 0 auto;
+    width:305px;
+    height:100%;
+    margin:10px;
+    position: relative;
+    border-radius: .5rem;
+    overflow: hidden;
+    overflow: hidden;
+    padding:0;
+    padding: 5px;
+    border:0;
+
+}
+
+.slider::-webkit-scrollbar{
+    visibility: hidden;
+}
+
+.slider div span{
+    position: absolute;
+    padding:20px;
+    width:100%;
+    height:100%;
+    background-color: #FF3147;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    bottom:-105%;
+    left:0%;
+    right:0%;
+    transition:bottom .5s ease-in-out !important;
+    border-radius: .4rem;
+}
+.slider div span h4,.slider div span p,.slider div span button{
+    margin:10px 0px;
+}
+.slider div span>h4{
+    font-weight: 400;
+    text-align: center;
+}
+.slider>div>div>span>img{
+ width:40px !important;
+ height:40px !important;
+ margin-bottom: 10px;
+}
+.slider button{
+    background-color: white;
+    color: #FF3147;
+    padding:10px 30px;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: .8rem;
+    border-radius: .3rem;
+    margin-top:35px !important;
+}
+.slider button img{
+    width:20px !important;
+    height:10px !important;
+    margin-left: 5px;
+    padding-bottom: 2px;
+}
+
+.slider>div>div:hover>span{
+    transition:all .2s ;
+  bottom:0%;
+}
+
+/* project section */
+
+#projectImg img{
+    height:550px !important;
+}
+.active{
+ background-color:#FF3147;
+ color:white;
+}
+
+/* growth section */
+.smallCards>div>div{
+  background-color: white;
+  width:300px;
+  height:200px;
+  transition: all .5s ease;
+}
+.smallCards>div{
+    display: flex;
+    justify-content: center;
+}
+.smallCards>div>div:hover{
+    box-shadow: 5px 0px 30px rgba(128, 128, 128, 0.429) !important;
+    /* scale: 1.05; */
+}
+
+/* footer section */
+
+#FOOTER2{
+    background-color: #FF3147;
+    
+}
