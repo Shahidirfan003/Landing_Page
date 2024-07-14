@@ -214,6 +214,6 @@ body{
 }
 @media(max-width:420px){
     .contact-form{
-       transform: scale(.7);
+       transform: scale(.8);
     }
 }
