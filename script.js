@@ -2,6 +2,10 @@ let slider=document.querySelector('#SERVICE .slider');
 let option=document.querySelector('.options .main');
 let projectDivs=document.querySelectorAll('.projectDivs>div');
 let projectImg=document.querySelector('#projectImg>img');
+let removeBtn=document.querySelector('#remove');
+let contactBtn=document.querySelector('#contact');
+let form=document.querySelector('.contact-form-container')
+
 
 let order=0;
 
@@ -39,3 +43,11 @@ function Check(el){
     return false;
  }
 }
+
+// contact form
+contactBtn.addEventListener('click',()=>{
+  form.classList.add('activeForm')
+})
+removeBtn.addEventListener('click',()=>{
+    form.classList.remove('activeForm')
+  })

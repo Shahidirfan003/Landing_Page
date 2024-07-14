@@ -11,8 +11,35 @@
     <link rel="icon" href="assets/heart (2).png">
 </head>
 
-<body>
+<body >
 
+    <div class="contact-form-container">
+        <div>
+            <form action="https://getform.io/f/bvrewjqb" method="POST" class="contact-form p-4 position-relative">
+                <button type="button" class="btn" id="remove">x</button>
+               <h4 class="text-black">Talk to us</h4>
+               <div class="">
+                <input type="text" placeholder="Work email*" name="email" id="email">
+               </div>
+               <div class="d-flex justify-content-between row">
+                 <div class="col-6">
+                    <input type="text" placeholder="First name*" name="fname" id="fname" >
+                 </div>
+                 <div class="col-6">
+                    <input type="text" placeholder="Last name*" name="lname" id="lname" >
+                 </div>
+               </div>
+               <div class="row mt-4 " id="term">
+                <input type="checkbox" name="TandC" id="terms" class="ms-3 mt-1" style="width:15px; height:15px;">
+                <label for="terms" class="m-0">i agree to Fyle's terms and conditions,and provide consent to send me communication.</label>
+               </div>
+               <button class="btn btn-danger mt-5" >Contact Us</button>
+               <div>
+                
+               </div>
+            </form>
+        </div>
+    </div>
     <div class="container mt-5 border-top">
      <section id="HOME">
         <div class="row py-4">
@@ -23,7 +50,7 @@
                     Ipsam maxime minima quas nihil dolor omnis sequi assumenda! In quae tenetur officiis officia facere ex
                     quasi fugiat, ea minus quia optio!
                 </p>
-                <button class="btn btn-lg btn-danger mt-4">CONTACT US</button>
+                <button class="btn btn-lg btn-danger mt-4" id="contact">CONTACT US</button>
             </div>
             <div class="col-md home-col2 order-1 order-md-2">
                 <img src="assets/hero.png" alt="iamge">
